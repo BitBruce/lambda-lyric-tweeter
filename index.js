@@ -90,6 +90,7 @@ function updateEntryTweetedStatus(entryId) {
       .then((entry) => {
         entry.fields.tweeted = { 'en-US': true };
         entry.update().then((updatedEntry) => {
+          updatedEntry.publish();
           console.log("Lyric successfully marked as tweeted in Contentful.");
         })
       });
