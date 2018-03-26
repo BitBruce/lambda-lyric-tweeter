@@ -1,11 +1,15 @@
-Lambda Lyric Tweeter
+# Lambda Lyric Tweeter
 ==============================
 
-# Installing and running locally
+**Note: I am not planning on developing this project as I don't see anyone actually using this, but if you're interested send me a message if you have questions!**
+
+Installing and running locally
+------------------------------
 1. npm install (will install packages listed in package-lock.json)
 2. node index-test.js (TODO: create)
 
-# Uploading code to AWS Lambda
+Uploading code to AWS Lambda
+------------------------------
 1. Archive files (not the whole folder): index.js, contentful_config.js, contentful_management-config.js, twit-artist-config.js, node_modules)
 2. Note: AWS Lambda currently supports Node.js 6.10 and therefore ES5, so you can't use async/await :(
 
